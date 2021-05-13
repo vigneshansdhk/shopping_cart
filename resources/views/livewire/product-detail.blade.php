@@ -2,26 +2,6 @@
 
 <a  class="btn btn-primary" style="float:right" href="{{url('view-cart')}}">view cart</a>
 
-<div  wire:ignore.self class="modal fade edit" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="exampleModal1">
-    <div class="modal-dialog modal-lg"> 
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle"></h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-               hello
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button class="btn btn-primary" wire:click.prevent="save()">Save</button>
-            </div>
-        </div>
-    </div>
-    </div>
-
 <form class="">
           <div class="col-md-6">
           <div class="position-relative form-group">
