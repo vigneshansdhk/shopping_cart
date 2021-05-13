@@ -26,7 +26,7 @@
       </div>
   </form>
 
-    <h1>List Form</h1>
+    <h1>List Product</h1>
     @foreach($products as $product)
     <div class="card" style="width: 18rem;">
   <img src="{{asset('storage/'.$product->image)}}" class="card-img-top" alt="...">
